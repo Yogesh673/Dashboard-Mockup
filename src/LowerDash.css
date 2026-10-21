@@ -1,0 +1,44 @@
+.LowerDash {
+    
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+    
+}
+
+
+.Upgrade {
+    display: flex;
+    width: 180px;
+    height: 70px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+     gap: 7px;
+     background: linear-gradient(135deg, #6366F1, #8B5CF6);
+    
+}
+
+.Upgrade-Content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    line-height: 1.5;
+    color: white;
+    
+    
+
+}
+
+.Upgrade-Content .upgrade-second {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.7rem;
+    
+}

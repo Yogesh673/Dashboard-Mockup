@@ -1,0 +1,126 @@
+.MainUpperDash {
+    background-color: #1b1a3a;
+    height: 84px;
+    border-bottom: 3px solid #26264d;
+    border-top: 3px solid #26264d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.bell {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 45px;
+    
+    /* background-color: aquamarine; */
+    justify-content: flex-end;
+    
+}
+
+.bell-content {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.user {
+    display: flex;
+    background-color: #242453;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    color: #ffffffe6;
+    
+
+}
+
+.user-name p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.649);
+}
+
+
+.user .admin-letter {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+    color: rgba(255, 255, 255, 0.649);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.icon-but {
+    width: 35px;
+    height: 35px;
+    background-color: #242453;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.search-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #242453;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.UpperDashContent h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: linear-gradient(120deg, #6366F1, #8B5CF6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.4;
+}
+
+.UpperDashContent p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.649);
+}
+
+.inner-div {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    /* background-color: aquamarine; */
+    /* padding-left: 15px; */
+    align-items: center;
+    justify-content: space-between;
+    
+}
