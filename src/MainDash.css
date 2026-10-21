@@ -1,6 +1,8 @@
 .MainDash {
     
     height: 100vh;
-    background-color: rgba(22, 230, 209, 0.559);
+    background-color: 0e0f23;
+    
     flex: 1;
+    
 }

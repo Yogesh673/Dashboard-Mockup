@@ -1,0 +1,19 @@
+.TopProjects {
+    
+    height: 500px;
+    /* background-color: rgb(17, 212, 147); */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-inner {
+    width: 90%;
+    height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}

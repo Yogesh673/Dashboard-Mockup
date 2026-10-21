@@ -1,6 +1,15 @@
 .NumData {
-    height: 300px;
-    background-color: aquamarine;
+    height: 180px;
+    
+    display: flex;
+    justify-content: center;
+
+    /* flex: 1;
+    min-width: 220px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    height: auto; */
 }
 
 .Num-Box {
@@ -13,6 +22,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid #26264d;
+    
+    
    
     
 }
@@ -80,4 +92,16 @@
     font-weight: bold;
     font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.649);
+}
+
+.Num-inner {
+    width: 90%;
+    height: 180px;
+    /* background-color: #2f32e43b; */
+    display: flex;
+    justify-content: space-between;
+
+     
+    
+   
 }
